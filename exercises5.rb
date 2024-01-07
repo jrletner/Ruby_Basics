@@ -1,12 +1,9 @@
 class Car
-  attr_accessor :make, :model
+  attr_accessor :make, :model, :color
 
-  def initialize(make, model)
+  def initialize(make, model, color)
     @make = make
     @model = model
-  end
-
-  def initialize(color)
     @color = color
   end
 

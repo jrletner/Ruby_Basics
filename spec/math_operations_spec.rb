@@ -1,4 +1,5 @@
 require_relative '../math_operations'
+
 describe 'math_operations' do
   describe '#add' do
     it 'correctly adds two numbers' do
