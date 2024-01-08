@@ -59,23 +59,23 @@
 #   puts "#{key}: #{value}"
 # end
 
-(1..100).each do |number|
-  if number % 3 == 0 && number % 5 == 0 && number % 7 == 0
-    puts "FizzBuzzSuper"
-  elsif number % 3 == 0 && number % 5 == 0
-    puts "FizzBuzz"
-  elsif number % 3 == 0 && number % 7 == 0
-    puts "FizzSuper"
-  elsif number % 5 == 0 && number % 7 == 0
-    puts "BuzzSuper"
-  elsif number % 3 == 0
-    puts "Fizz"
-  elsif number % 5 == 0
-    puts "Buzz"
-  elsif number % 7 == 0
-    puts "Super"
-  else
-    puts number
-  end
-end
+# (1..100).each do |number|
+#   if number % 3 == 0 && number % 5 == 0 && number % 7 == 0
+#     puts "FizzBuzzSuper"
+#   elsif number % 3 == 0 && number % 5 == 0
+#     puts "FizzBuzz"
+#   elsif number % 3 == 0 && number % 7 == 0
+#     puts "FizzSuper"
+#   elsif number % 5 == 0 && number % 7 == 0
+#     puts "BuzzSuper"
+#   elsif number % 3 == 0
+#     puts "Fizz"
+#   elsif number % 5 == 0
+#     puts "Buzz"
+#   elsif number % 7 == 0
+#     puts "Super"
+#   else
+#     puts number
+#   end
+# end
 
